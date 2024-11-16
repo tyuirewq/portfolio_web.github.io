@@ -12,3 +12,8 @@ var typed = new Typed(".typing",{
 //         for (let i = 0; i < totalNavList.length; i++) {
 //             console.log(navList[i])
 //         }
+
+const currentYear = new Date().getFullYear();
+const birthYear = 2001;
+const age = currentYear - birthYear;
+document.getElementById('mycurrent').innerText = age;
