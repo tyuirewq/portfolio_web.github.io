@@ -5,6 +5,14 @@ var typed = new Typed(".typing",{
     BackSpeed:60,
     loop:true
 })
+
+
+const currentYear = new Date().getFullYear();
+const birthYear = 2001;
+const age = currentYear - birthYear;
+document.getElementById('mycurrent').innerText = age;
+
+
 // Aside
 // const nav = document.querySelector(".nav"),
 //         navList = nav.querySelectorAll("li"),
@@ -13,7 +21,3 @@ var typed = new Typed(".typing",{
 //             console.log(navList[i])
 //         }
 
-const currentYear = new Date().getFullYear();
-const birthYear = 2001;
-const age = currentYear - birthYear;
-document.getElementById('mycurrent').innerText = age;
